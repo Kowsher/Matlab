@@ -1,0 +1,4 @@
+n=input('Type value n: ')
+r=input('Type value r: ')
+p=factorial(n)/factorial(n-r)
+p/factorial(r)
