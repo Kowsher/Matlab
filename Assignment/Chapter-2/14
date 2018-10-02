@@ -1,0 +1,6 @@
+c=input('input capital: ');
+r=input('input annual interest rate :');
+n=input('input number of years: ');
+nc=input('input compouding');
+n*c*r/100
+c*(1+r/(100*nc))^(n*nc)-c
