@@ -1,0 +1,7 @@
+N = input('Type a number: ')
+
+if isprime(N)==1
+    fprintf("%d is a prime number", N)
+else
+    fprintf("%d is not prime number", N)
+end
