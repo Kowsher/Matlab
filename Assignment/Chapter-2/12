@@ -1,0 +1,5 @@
+syms p q x
+g=solve('x^3+p*x+q=0')
+p=-3/2
+q=5/2
+subs(g)
