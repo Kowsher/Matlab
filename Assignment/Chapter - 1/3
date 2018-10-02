@@ -1,0 +1,5 @@
+x = input('type one number: ')
+y= input('type another number: ')
+fprintf('The gcd is %d\n', gcd(x,y))
+fprintf('The lcm is %d/\n', (x*y)/gcd(x,y))
+
