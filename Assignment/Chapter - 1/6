@@ -1,0 +1,6 @@
+n = input('Type a number: ')
+for i=1:n
+    if (mod(i,3)==0 || mod(i, 5)==0)
+        fprintf('%d ', i)
+    end
+end
