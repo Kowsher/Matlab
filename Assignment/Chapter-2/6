@@ -1,3 +1,6 @@
 syms a b c
-p = (2*a-3*b+5*c)^7;
-expand(p)
+expand((2*a-3*b+5*c)^7)
+
+%factor
+syms x y
+factor(x^3-y^3)
