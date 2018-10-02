@@ -1,0 +1,8 @@
+N = input('Type a number: ')
+
+for k=1:N
+    if isprime(k)==1
+       fprintf('%d ', k)
+    %k=k+1;
+    end
+end
