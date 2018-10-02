@@ -1,4 +1,3 @@
 x = input('Enter number):');
-format long
 f = factorial(x);
 fprintf('%32.0f\n', f)
