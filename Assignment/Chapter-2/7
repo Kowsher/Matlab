@@ -1,0 +1,3 @@
+a=input('Type base a: ')
+b=input('Type value b: ')
+log(b)/log(a)
