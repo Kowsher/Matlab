@@ -1,0 +1,13 @@
+x = input('Enter the grade (1-100):');
+ if  x > 95
+     grade = 'A';
+ elseif  x > 86
+     grade = 'B';
+ elseif  x > 76
+     grade = 'C';
+ elseif  x > 66
+     grade = 'D';
+ else
+     grade = 'F';
+ end
+fprintf('grade is %s\n',grade)
