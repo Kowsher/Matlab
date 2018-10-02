@@ -1,0 +1,14 @@
+a=input('input coefficinet a: ')
+b=input('input coefficient b: ')
+c=input('input coefficient c: ')
+s=solve('a*x*x-b*x+c')
+d=b*b-4*a*c
+if d==0
+    fprintf('Roots are real & equal')
+elseif d>0
+    fprintf('Roots are real & unequal')
+else
+    fprintf('Roots are complex')
+end
+ fprintf('Solusion is: ')
+ subs(s)
