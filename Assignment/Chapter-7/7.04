@@ -1,0 +1,3 @@
+n=input('Number of trials: ');
+r =input('Probability of success: '); %probability less than 1
+binornd(n,r)
