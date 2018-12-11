@@ -1,0 +1,4 @@
+x=linspace(0,1,200);
+gauss=exp(x)-x.^2;
+in = trapz(x, gauss)
+
