@@ -1,0 +1,9 @@
+n = input('type a number: ')
+a = [0 1; 1 1];
+for k =1:n
+    b = a^k;
+    f(k) = b(2,1);
+    fprintf('%d ', f(k))
+end
+disp(f(k)/f(k-1))
+
