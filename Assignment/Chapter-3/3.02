@@ -1,0 +1,3 @@
+n = input('type a number: ')
+H = hilb(n)
+hilb(3
