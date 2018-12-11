@@ -1,0 +1,5 @@
+n = input('type a number: ')
+for i=1:n
+    x(i)=input('input: ');      
+end
+fprintf('%f %f\n',geomean(x),harmmean(x))
