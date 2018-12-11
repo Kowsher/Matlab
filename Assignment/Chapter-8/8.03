@@ -1,0 +1,3 @@
+syms x;
+taylor(sin(x), x, 10)
+taylor(exp(x), x, 2)
