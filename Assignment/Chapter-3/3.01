@@ -1,0 +1,15 @@
+
+cnt=1;
+for i =1:3
+    for j=1:4
+        fprintf('%d ', cnt)
+        x(i,j)=cnt;
+        cnt=cnt+1;
+    end
+    fprintf('\n');
+end
+
+fprintf('the transpose matrix is\n');
+y = transpose(x)
+
+C = x*y
