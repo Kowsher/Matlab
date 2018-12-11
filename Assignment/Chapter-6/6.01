@@ -1,0 +1,6 @@
+dsolve('Dx = -a*x')
+dsolve('Df = f+sin(x)')
+dsolve('Dy = -a*x', 'y(0)=b')
+dsolve('D2y=-y')
+dsolve('D2y=-a^2*y','y(0)=1', 'Dy(pi/a)=0')
+dsolve('D2y = -Dy - y')
