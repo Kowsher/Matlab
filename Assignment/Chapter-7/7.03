@@ -1,0 +1,7 @@
+n = input('type a number: ');
+for i=1:n
+    x(i)=input('input: ');      
+end
+fprintf('%f %f\n', moment(x,3),skewness(x,3), kurtosis(x,n))
+
+
