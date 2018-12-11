@@ -1,0 +1,7 @@
+z=dsolve('Dx=y','Dy=-x');
+z.x
+z.y
+
+z=dsolve('Dx = x+y', 'Dy=x-y');
+z.x
+z.y
