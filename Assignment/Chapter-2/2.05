@@ -3,7 +3,7 @@ b = input('Enter number b:');
 c = input('Enter number c:');
 
 if ((a+b>c) && (b+c>a) && (c+a>b))
-    fprintf('regarded as side of tringle\n')
+    disp('regarded as side of tringle')
 else
-    fprintf('not regarded as side of tringle\n')
+    disp('not regarded as side of tringle')
 end
