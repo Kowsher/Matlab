@@ -1,4 +1,0 @@
-syms k n 
-g=symsum(k^2, 0, n)
-n=10;
-subs(g)
