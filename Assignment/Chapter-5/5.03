@@ -1,0 +1,7 @@
+x=input('input x: ');
+y=input('input y: ');
+[theta,r] = cart2pol(x,y)
+
+theta = input('input theta: ');
+r = input('input r: ');
+[x,y]=pol2cart(theta, r)
