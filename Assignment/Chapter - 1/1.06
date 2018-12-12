@@ -1,0 +1,5 @@
+for i=1:input('Input: ')
+    if (mod(i,3)==0 || mod(i,5)==0)
+        disp(i)
+    end
+end
