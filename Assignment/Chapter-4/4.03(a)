@@ -1,0 +1,5 @@
+r=input('input radius: ')
+t=linspace(0,02*pi,100);
+x=r*cos(t);
+y=r*sin(t);
+plot(x,y,'g')
