@@ -1,0 +1,5 @@
+fid = fopen('exp.txt.txt', 'w')
+for x=0.1:0.1:1
+    fprintf(fid, '%6.3f %12.10f\n', x, sin(x)/x)
+end
+fclose(fid)
