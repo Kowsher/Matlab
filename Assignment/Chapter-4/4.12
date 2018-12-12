@@ -1,0 +1,16 @@
+%a
+f=6*x^3-5*x^2+2*x-3;
+diff(f)
+
+%b
+f = (2*x-1)/(x.^2+1);
+diff(f)
+%c
+f=sqrt(1+x.^4);
+diff(f)
+%d
+f=atan(x.^2+1);
+diff(f)
+%e
+f=exp(-3*x);
+diff(f)
