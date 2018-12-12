@@ -1,0 +1,9 @@
+a=diff(exp(x.^2));
+b=diff(x.^3);
+a/b
+
+%b
+a=diff(2.^atan(x));
+b=diff(log(1+x.^2));
+a/b
+
