@@ -1,0 +1,5 @@
+x=linspace(-1,0.5,10)
+x1=linspace(0.5,1.10)
+y=x.^2;
+y1=0.25
+plot(x,y,'g',x1,y1,'b--o')
