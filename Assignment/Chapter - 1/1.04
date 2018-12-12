@@ -1,0 +1,4 @@
+x=input('input x: ');
+y=input('input y: ');
+disp(gcd(x,y))
+disp(lcm(x,y))
