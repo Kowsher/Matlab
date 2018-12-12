@@ -1,2 +1,0 @@
-x = input('Enter number):');
-fprintf('%32.0f\n', factorial(x))
