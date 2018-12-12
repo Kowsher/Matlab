@@ -1,0 +1,12 @@
+%a
+f=sin(3*x)*sqrt(1-cos(3*x));
+int(f)
+%b
+f=2.^x
+int(f)
+%c
+f=x*sin(x.^2)
+int(f)
+%d
+f=-((cos(x)).^2)/2
+int(f)
