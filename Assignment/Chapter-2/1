@@ -1,4 +1,0 @@
-r=3;h=5;
-v = (pi*r*r*h)/3;
-sa = pi*r*(r+sqrt(r*r+h*h));
-fprintf('volume = %f, area = %f \n', v,sa)
