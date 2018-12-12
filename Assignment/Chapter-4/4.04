@@ -1,0 +1,4 @@
+x=linspace(1,10,10);
+y1=exp(-x);
+y2=sin(x);
+plot(x,y1, x,y2,'b-o')
