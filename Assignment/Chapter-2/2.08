@@ -1,0 +1,1 @@
+nchoosek(input('input n: '),input(' input r: '))
