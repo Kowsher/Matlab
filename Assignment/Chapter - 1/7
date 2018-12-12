@@ -1,8 +1,8 @@
-n = input('Type a number: ')
 sum=0
-for i=1:n
-    if ((mod(i,3)==0 || mod(i, 5)==0) && mod(i,15)~=0)
-        fprintf('%d ', i)
-        sum=sum+i
+for i=1:input('Input: ')
+    if (mod(i,3)==0 || mod(i,5)==0)&& mod(i,15)~=0
+        disp(i)
+        sum=sum+i;
     end
 end
+sum
