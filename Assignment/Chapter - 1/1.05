@@ -1,1 +1,1 @@
-fibonacci(1:input(' '))
+fibonacci(1:input('input: '))
