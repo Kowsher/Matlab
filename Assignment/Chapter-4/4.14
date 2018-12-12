@@ -1,14 +1,13 @@
 %a
-f=x.^2*sqrt(x+4);
-in=int(f);
+in=int(x.^2*sqrt(x+4));
 df=simplify(diff(in))
 if f==df 
     disp('varified')
 end
 
 %b
-f=x.^2*cos(x);
-in=int(f)
+
+in=int(x.^2*cos(x))
 df=simplify(diff(in))
 if f==df 
     disp('varified')
