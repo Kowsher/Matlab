@@ -1,0 +1,8 @@
+a=[1 1; 5 5; 2 3];
+re = rank(a);
+b=[0; -1; 1];
+ab=[a b]
+ra=rank(ab)
+if re ~= ra
+    disp('no solution')
+end
