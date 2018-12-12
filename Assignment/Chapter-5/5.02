@@ -1,0 +1,5 @@
+x1=input('input: ');
+y1=input('input: ');
+x2=input('input: ');
+y2=input('input: ');
+d=sqrt((x2-x1)^2+(y2-y1)^2)
