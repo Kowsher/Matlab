@@ -4,4 +4,4 @@ n=input('input number of years: ');
 a=input('input compouding');
 r=r/100;
 n*p*r
-p*(1+r)^n-p
+p*(1+r/a)^(n*a)-p
