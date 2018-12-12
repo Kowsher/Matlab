@@ -1,0 +1,10 @@
+%library
+isprime(input('input: '))
+
+%user defined 
+n=input('input: ')
+for k=2:n
+    if mod(n,k)==0
+        disp('not prime')
+    end
+end
