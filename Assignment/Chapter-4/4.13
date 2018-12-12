@@ -1,12 +1,8 @@
 %a
-f=sin(3*x)*sqrt(1-cos(3*x));
-int(f)
+int(sin(3*x)*sqrt(1-cos(3*x)))
 %b
-f=2.^x
-int(f)
+int(2.^x)
 %c
-f=x*sin(x.^2)
-int(f)
+int(x*sin(x.^2))
 %d
-f=-((cos(x)).^2)/2
-int(f)
+int(-((cos(x)).^2)/2)
