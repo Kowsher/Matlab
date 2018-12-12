@@ -1,0 +1,4 @@
+a = [1 1 1;1 1 1; 1 1 1];
+orth(a)
+issymmetric(a)
+issymmetric(a,'skew')
