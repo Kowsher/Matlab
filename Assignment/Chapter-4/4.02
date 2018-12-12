@@ -1,12 +1,10 @@
-x = linspace(-10,10,50);
-y=abs(x);
-plot(x,y,'b--o')
+ezplot('abs(x)',[-10:10])
+
 
 %2
 
-x1 = linspace(0,10,50);
-y1=x1.^2-10*x1+15*x1;
-plot(x1,y1,'b--o')
+ezplot('x.^2-10*x+15*x',[0:10])
+
 
 
 
