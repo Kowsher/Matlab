@@ -1,0 +1,7 @@
+a=[1 2 1; 0 1 0; 0 0 1];
+z=zeros(3);
+cf=poly(a)
+if z==0
+    disp('varified')
+    disp(z)
+end
