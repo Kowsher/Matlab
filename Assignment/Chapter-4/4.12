@@ -1,16 +1,12 @@
 %a
-f=6*x^3-5*x^2+2*x-3;
-diff(f)
+diff(6*x^3-5*x^2+2*x-3)
 
 %b
-f = (2*x-1)/(x.^2+1);
-diff(f)
+diff( (2*x-1)/(x.^2+1))
 %c
-f=sqrt(1+x.^4);
-diff(f)
+diff(sqrt(1+x.^4))
 %d
-f=atan(x.^2+1);
-diff(f)
+diff(atan(x.^2+1))
 %e
-f=exp(-3*x);
-diff(f)
+
+diff(exp(-3*x))
